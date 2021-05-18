@@ -3,7 +3,11 @@
 
 // Base elements
 @import "base/global";
+@import "base/typography";
 
 // Components
+@import "components/links";
 @import "components/navbar";
 @import "components/notification";
+@import "components/slide";
+@import "components/recipe";

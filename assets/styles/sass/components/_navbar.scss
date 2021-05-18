@@ -1,0 +1,40 @@
+/**
+ * Navbar
+ * =================================
+ */
+ 
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $color-white;
+    border-bottom: solid 1px $color-border;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 90px;
+}
+
+.nav__links {
+    a {
+        color: $color-black;
+        text-decoration: none;
+        margin: 20px;
+    }
+    a:hover {
+        color: $color-brand;
+    }
+}
+
+.nav__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        margin: 8px;
+    }
+}

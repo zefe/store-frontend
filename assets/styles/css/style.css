@@ -51,7 +51,6 @@ p {
   font-size: 14px;
   color: #666666;
   line-height: 1.4;
-  margin-top: 20px;
 }
 
 /**
@@ -449,19 +448,24 @@ a:active {
   font-size: 13px;
 }
 
-.card__body {
+.card-body {
   margin-top: 5px;
 }
 
-.card__body {
+.card-body p {
+  margin-top: 20px;
+  color: blue;
+}
+
+.card-body {
   display: none;
 }
 
-.card:nth-child(1) .card__body {
+.card:nth-child(1) .card-body {
   display: block;
 }
 
-.card__body p {
+.card-body p {
   font-size: 15px;
   line-height: 24px;
   color: #444444;

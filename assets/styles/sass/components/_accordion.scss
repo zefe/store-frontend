@@ -52,18 +52,22 @@
 	font-size: 13px;
 }
 
-.card__body{
+.card-body{
 	margin-top: 5px;
+	p {
+		margin-top: 20px;
+		color: blue;
+	}
 }
 
-.card__body{
+.card-body{
 	display: none;
 }
 
-.card:nth-child(1) .card__body{
+.card:nth-child(1) .card-body{
  display: block;
 }
-.card__body p{
+.card-body p{
 	font-size: 15px;
 	line-height: 24px;
 	color:#444444;

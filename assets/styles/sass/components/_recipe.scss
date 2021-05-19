@@ -35,19 +35,3 @@
         width: 80%;
     }
 }
-
-.btn {
-    margin-top: 20px;
-    width: 200px;
-    height: 60px;
-    cursor: pointer;
-    a {
-        text-transform: uppercase;
-    }
-    hr {
-        width: 35px;
-        border: solid 1px $color-brand;        
-        background-color: $color-brand;
-    }
-
-}

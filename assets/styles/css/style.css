@@ -50,6 +50,7 @@ p {
   font-weight: normal;
   font-size: 14px;
   color: #666666;
+  line-height: 1.4;
 }
 
 /**
@@ -77,6 +78,25 @@ a:hover, a:focus {
 
 a:active {
   color: #EBA904;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.btn a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.btn hr {
+  width: 35px;
+  border: solid 1px #EBA904;
+  background-color: #EBA904;
 }
 
 /**
@@ -232,20 +252,131 @@ a:active {
   width: 80%;
 }
 
-.btn {
-  margin-top: 20px;
-  width: 200px;
-  height: 60px;
+.products__slides {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 200px;
+}
+
+.products__slides {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.products__container {
+  width: 90%;
+  min-height: 400px;
+}
+
+.product__card {
+  word-break: break-all;
+  padding: 8px;
+  margin-left: 30px;
+}
+
+.product__card h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97%;
+  margin-top: 15px;
+  color: #666666;
+}
+
+.product__card p {
+  margin-top: 8px;
+}
+
+.btn--center {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.prev__arrow {
+  position: relative;
+  top: -40px;
+  left: 93%;
+  text-align: center;
+  width: 40px;
+  margin-left: 10px;
   cursor: pointer;
 }
 
-.btn a {
-  text-transform: uppercase;
+.next__arrow {
+  position: absolute;
+  top: -40px;
+  left: 90%;
+  text-align: center;
+  width: 40px;
+  cursor: pointer;
 }
 
-.btn hr {
-  width: 35px;
-  border: solid 1px #EBA904;
-  background-color: #EBA904;
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.slick-dots li {
+  margin-left: 12px;
+}
+
+.slick-dots li span:hover {
+  cursor: pointer;
+}
+
+.slick-dots li img:nth-child(1) {
+  display: block;
+}
+
+.slick-dots li img:nth-child(2) {
+  display: none;
+}
+
+.slick-dots li.slick-active img:nth-child(1) {
+  display: none;
+}
+
+.slick-dots li.slick-active img:nth-child(2) {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

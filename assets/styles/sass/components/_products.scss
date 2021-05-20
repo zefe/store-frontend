@@ -34,6 +34,9 @@
     p {
         margin-top: 8px;
     }
+    img {
+        width: 220px;
+    }
 }
 
 .btn--center {
@@ -93,6 +96,38 @@
         display: block;
     }
 
+}
+
+
+//Responsive
+@media screen and (min-width: 768px){
+    .prev__arrow {
+        left: 100%;
+    }
+    
+    .next__arrow {
+        left: 92%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .prev__arrow {
+        left: 95%;
+    }
+    
+    .next__arrow {
+        left: 91%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .prev__arrow {
+        left: 95%;
+    }
+    
+    .next__arrow {
+        left: 92%;
+    }
 }
 
 

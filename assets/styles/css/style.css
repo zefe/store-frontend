@@ -157,6 +157,12 @@ a:active {
   margin: 8px;
 }
 
+@media screen and (min-width: 1024px) {
+  .nav__links {
+    display: initial;
+  }
+}
+
 /**
  * Notification
  * =================================
@@ -268,6 +274,24 @@ a:active {
   width: 80%;
 }
 
+@media screen and (min-width: 1024px) {
+  .main__recipe--container {
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+  }
+  .main__recipe--image {
+    width: 50%;
+  }
+  .main__recipe--image img {
+    width: 100%;
+  }
+  .main__recipe--details {
+    width: 50%;
+  }
+}
+
 .products__slides {
   width: 100%;
   padding-bottom: 100px;
@@ -318,6 +342,10 @@ a:active {
 
 .product__card p {
   margin-top: 8px;
+}
+
+.product__card img {
+  width: 220px;
 }
 
 .btn--center {
@@ -397,6 +425,33 @@ a:active {
   display: block;
 }
 
+@media screen and (min-width: 768px) {
+  .prev__arrow {
+    left: 100%;
+  }
+  .next__arrow {
+    left: 92%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .prev__arrow {
+    left: 95%;
+  }
+  .next__arrow {
+    left: 91%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .prev__arrow {
+    left: 95%;
+  }
+  .next__arrow {
+    left: 92%;
+  }
+}
+
 /**
  * Accordion styling
  * =================================
@@ -414,9 +469,6 @@ a:active {
 
 .row {
   width: 90%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .accordion {
@@ -481,6 +533,21 @@ a:active {
   color: #444444;
 }
 
+@media screen and (min-width: 1024px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .accordion {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+}
+
 .person {
   width: 100%;
 }
@@ -524,5 +591,25 @@ a:active {
   font-weight: 600;
   font-size: 18px;
   color: #050505;
+}
+
+@media screen and (min-width: 1024px) {
+  .person {
+    width: 55%;
+  }
+  .person__details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+  }
+  #avatar {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 /*# sourceMappingURL=style.css.map */

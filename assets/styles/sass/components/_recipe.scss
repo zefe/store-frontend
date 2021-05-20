@@ -40,3 +40,23 @@
         width: 80%;
     }
 }
+
+
+// Responsive design
+@media screen and (min-width: 1024px){
+    .main__recipe--container {
+    flex-direction: initial;
+}
+
+.main__recipe--image {
+    width: 50%;
+    
+    img {
+        width: 100%;
+    }
+}
+.main__recipe--details {
+    width: 50%;
+}
+
+}

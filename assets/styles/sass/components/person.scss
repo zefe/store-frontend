@@ -28,3 +28,21 @@
         color: $color-darkgray;
     }
 }
+
+
+@media screen and (min-width: 1024px){
+
+    .person {
+        width: 55%;
+    }
+        
+    .person__details {
+        display: flex;
+        flex-direction: initial;
+    }
+    #avatar {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+}

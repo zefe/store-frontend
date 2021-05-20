@@ -20,6 +20,7 @@
 }
 
 .nav__links {
+    display: none;
     a {
         margin: 20px;
     }
@@ -32,4 +33,9 @@
     img {
         margin: 8px;
     }
+}
+
+// Responsive design
+@media screen and (min-width: 640px){
+
 }

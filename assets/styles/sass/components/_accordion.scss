@@ -11,13 +11,13 @@
 }
 .row {
 	width: 90%;
-	display: flex;
 	justify-content: space-between;
 	
 }
 .accordion {
-	width: 40%;
+	width: 100%;
 	display: block;
+	margin-bottom: 500px;
 }
 
 .card {
@@ -56,7 +56,6 @@
 	margin-top: 5px;
 	p {
 		margin-top: 20px;
-		color: blue;
 	}
 }
 

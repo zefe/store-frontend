@@ -1,0 +1,50 @@
+.person {
+  width: 45%;
+  min-height: 300px;
+  background-color: cornflowerblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.person h3 {
+  font-weight: 600;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.person__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+#avatar {
+  width: 50%;
+}
+
+#person__info {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#person__info span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+/*# sourceMappingURL=person.css.map */

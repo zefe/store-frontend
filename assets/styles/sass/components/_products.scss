@@ -1,0 +1,134 @@
+.products__slides {
+    width: 100%;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.products__wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.products__container {
+    width: 90%;
+    min-height: 400px;
+}
+
+.product__card {
+    word-break: break-all;
+    padding: 8px;
+    margin-left: 30px;
+    h3 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 97%;
+        margin-top: 15px;
+        color: $color-gray;
+    }
+    p {
+        margin-top: 8px;
+    }
+    img {
+        width: 220px;
+    }
+}
+
+.btn--center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prev__arrow {
+    position: relative;
+    top: -40px;
+    left: 88%;
+    text-align: center;
+    width: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.next__arrow {
+    position: absolute;
+    top: -40px;
+    left: 75%;
+    text-align: center;
+    width: 40px;
+    cursor: pointer;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: row-reverse;
+
+    li {
+        margin-left: 12px;
+        span:hover {
+            cursor: pointer;
+        }
+    }
+
+    li img:nth-child(1) {
+        display: block;
+    }
+    
+    li img:nth-child(2) {
+        display: none;
+    }
+    
+    li.slick-active img:nth-child(1) {
+        display: none;
+    }
+    
+    li.slick-active img:nth-child(2) {
+        display: block;
+    }
+
+}
+
+
+//Responsive
+@media screen and (min-width: 768px){
+    .prev__arrow {
+        left: 100%;
+    }
+    
+    .next__arrow {
+        left: 92%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .prev__arrow {
+        left: 95%;
+    }
+    
+    .next__arrow {
+        left: 91%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .prev__arrow {
+        left: 95%;
+    }
+    
+    .next__arrow {
+        left: 92%;
+    }
+}
+
+
+

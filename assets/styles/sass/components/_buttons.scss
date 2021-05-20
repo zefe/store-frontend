@@ -1,0 +1,22 @@
+/**
+ * Buttons styling
+ * =================================
+ */
+
+.btn {
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    a {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    hr {
+        width: 35px;
+        border: solid 1px $color-brand;        
+        background-color: $color-brand;
+    }
+
+}

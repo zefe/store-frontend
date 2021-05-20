@@ -1,0 +1,21 @@
+.main__slide {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    text-align: center;
+    img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.main__slide--promo {
+    margin: 0 auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    img {
+        width: 100%;
+    }
+}

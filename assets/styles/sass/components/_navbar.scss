@@ -1,0 +1,44 @@
+/**
+ * Navbar
+ * =================================
+ */
+ 
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $color-white;
+    border-bottom: solid 1px $color-border;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 90px;
+}
+
+.nav__links {
+    display: none;
+    a {
+        margin: 20px;
+    }
+}
+
+.nav__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        margin: 8px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .nav__links {
+        display: initial;
+    }
+    
+}

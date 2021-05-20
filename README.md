@@ -23,6 +23,8 @@ What things you need to install the software and how to install them
 
 ### This project is built with
 
+Javascript, Sass, JQuery, Html
+
 To compile sass, Live Sass Compiler was used and to run it, Live Server was used to view the changes for Visual studio code.
 
 ### Check that you have Live Sass Compiler and Live Server installed in your visual studio code or use another compiler for sass
